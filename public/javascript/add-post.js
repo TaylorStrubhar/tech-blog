@@ -23,3 +23,6 @@ async function newFormHandler(event) {
 }
 
 document.querySelector('.new-post-form').addEventListener('submit', newFormHandler);
+document.getElementById("createButton").onclick = function () {
+  location.href = "/";
+};
